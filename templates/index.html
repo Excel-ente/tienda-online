@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+{% for section in sections %}
+    {% include "components/"|add:section.name|add:".html" %}
+{% endfor %}
+{% endblock %}
