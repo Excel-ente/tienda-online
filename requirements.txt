@@ -1,0 +1,6 @@
+Django==4.2.0
+jazzmin
+django-import-export
+django-filter
+python-dotenv
+pillow
